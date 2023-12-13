@@ -7,7 +7,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost/review-db
+    url: jdbc:mysql://123.213.1.211:3306/review-db
     username: user01
     password: user01
     hikari:

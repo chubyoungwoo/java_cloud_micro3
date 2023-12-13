@@ -5,7 +5,7 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
+      host: 123.213.1.211
       port: 27017
       database: product-db
 logging:
