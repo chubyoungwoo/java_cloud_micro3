@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# sudo docker network create --subnet 192.168.0.0/24 --gateway 192.168.0.1 apps_net
+
 sudo docker run -d --rm --name mysqlDB \
      --net apps_net \
      -e MYSQL_DATABASE=review-db \
