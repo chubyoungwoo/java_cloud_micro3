@@ -7,7 +7,7 @@ git fetch --all
 git reset --hard origin/main
 git pull origin main
 
-chmod 755 ./run/local/*.sh
+chmod 755 ./run/docker/*.sh
 
 gradle clean
 gradle build --exclude-task test
