@@ -23,7 +23,7 @@ docker run -d --rm --name composite \
        -p 8080:8080 \
        composite
 
-dockr run -d --rm --name product \
+docker run -d --rm --name product \
       --network apps_net \
       -e SPRING_PROFILES_ACTIVE=docker \
       product

@@ -4,7 +4,7 @@ docker stop composite;
 docker stop product;
 docker stop recommend;
 docker stop review;
-docker stop mgngoDB;
+docker stop mongoDB;
 docker stop mysqlDB;
 
 docker rmi composite;
