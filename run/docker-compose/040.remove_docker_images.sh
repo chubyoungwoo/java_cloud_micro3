@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker rmi docker-compose_composite
-docker rmi docker-compose_review
-docker rmi docker-compose_recommend
-docker rmi docker-compose_product
+docker rmi dockercompose_composite
+docker rmi dockercompose_review
+docker rmi dockercompose_recommend
+docker rmi dockercompose_product
